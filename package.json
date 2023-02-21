@@ -1,0 +1,24 @@
+{
+  "name": "dbbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2",
+    "morgan": "^1.10.0",
+    "nanoid": "^4.0.1",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
+  }
+}
